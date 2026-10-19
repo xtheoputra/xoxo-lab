@@ -19,7 +19,7 @@ New-Item -ItemType SymbolicLink -Path C:\kerja\pintasan -Target C:\proyek\asli
 
 *Junction* untuk direktori tidak menuntut hak istimewa sama sekali:
 
-```
+```bat
 mklink /J C:\kerja\pintasan C:\proyek\asli
 ```
 

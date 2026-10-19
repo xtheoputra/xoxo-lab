@@ -1,0 +1,10 @@
+{
+  // Notes favour readability in a terminal over strict formatting.
+  "config": {
+    "default": true,
+    "MD013": false, // line length: prose and long commands wrap naturally
+    "MD033": false, // inline HTML (badges)
+    "MD041": false, // first line need not be a heading in snippet files
+    "MD060": false  // compact table separators (|---|) are the house style
+  }
+}
