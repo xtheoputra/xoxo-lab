@@ -21,7 +21,7 @@ grep -rl "namaLama" --include="*.ts" . | xargs sed -i 's/namaLama/namaBaru/g'
 
 > ⚠️ Pada macOS, `sed -i` menuntut argumen cadangan — `sed -i ''` lalu polanya.
 > Di Git Bash Windows dan Linux, `sed -i` saja sudah benar.
-
+>
 > ⚠️ `sed` tidak paham batas kata. `namaLama` juga akan mengenai `namaLamaSekali`.
 > Kunci batasnya kalau perlu: `s/\bnamaLama\b/namaBaru/g`.
 
