@@ -1,5 +1,25 @@
 # xoxo-lab
 
+## English summary
+
+**xoxo-lab** is a collection of short snippets and notes: commands that get used often but are easy to forget.
+
+**What it is**
+
+- 16 standalone notes in [`snippet/`](snippet/), one problem per file, short enough to read with the terminal still open.
+- Git: undo the last commit, move commits to the right branch, find huge files in history, remove a committed secret from history, find who changed a line and why.
+- CLI and dev tools: bulk search-and-replace, testing JSON endpoints with curl, cleaning up Docker disk usage, compressing video with ffmpeg, outdated Node dependencies, a clean npm reinstall, a quick Python virtual environment, backing up SQLite while the app runs, a minimal strict `tsconfig`.
+- Windows: find which process holds a port, create symlinks without Administrator rights.
+- Writing rules: the problem comes first, then the command; destructive commands carry a warning; commands the author has not run personally are not included.
+
+**Status:** reference notes, no dependencies and nothing to install. Licensed [MIT](LICENSE).
+
+Built by [xTheo Labs](https://xtheo-labs.vercel.app) · [@xtheoputra](https://github.com/xtheoputra)
+
+> The notes and the documentation below are in Indonesian. *Dokumentasi lengkap di bawah ini dalam Bahasa Indonesia.*
+
+---
+
 Kumpulan snippet dan catatan singkat: perintah yang sering kepakai tapi selalu lupa.
 
 Setiap catatan berdiri sendiri di dalam folder [`snippet/`](snippet/), ditulis pendek
